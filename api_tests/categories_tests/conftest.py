@@ -17,7 +17,6 @@ def load_categories():
 
 _created_categories_storage = load_categories()
 
-
 @pytest.fixture(scope="session")
 def created_categories_storage():
     return _created_categories_storage
